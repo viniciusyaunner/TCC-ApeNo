@@ -347,6 +347,7 @@
             this.id_adminTextBox.Name = "id_adminTextBox";
             this.id_adminTextBox.Size = new System.Drawing.Size(200, 23);
             this.id_adminTextBox.TabIndex = 12;
+
             // 
             // button1
             // 

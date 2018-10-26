@@ -115,7 +115,7 @@
             this.topicoToolStripMenuItem1});
             this.topicoToolStripMenuItem.Name = "topicoToolStripMenuItem";
             this.topicoToolStripMenuItem.Size = new System.Drawing.Size(80, 21);
-            this.topicoToolStripMenuItem.Text = "Topico";
+            this.topicoToolStripMenuItem.Text = "Tópico";
             // 
             // participaçãoDeTopicoToolStripMenuItem
             // 
@@ -208,36 +208,36 @@
             // usuárioToolStripMenuItem1
             // 
             this.usuárioToolStripMenuItem1.Name = "usuárioToolStripMenuItem1";
-            this.usuárioToolStripMenuItem1.Size = new System.Drawing.Size(206, 22);
+            this.usuárioToolStripMenuItem1.Size = new System.Drawing.Size(236, 22);
             this.usuárioToolStripMenuItem1.Text = "Usuário";
             this.usuárioToolStripMenuItem1.Click += new System.EventHandler(this.usuárioToolStripMenuItem1_Click);
             // 
             // desenvolvedorToolStripMenuItem2
             // 
             this.desenvolvedorToolStripMenuItem2.Name = "desenvolvedorToolStripMenuItem2";
-            this.desenvolvedorToolStripMenuItem2.Size = new System.Drawing.Size(206, 22);
+            this.desenvolvedorToolStripMenuItem2.Size = new System.Drawing.Size(236, 22);
             this.desenvolvedorToolStripMenuItem2.Text = "Desenvolvedor";
             this.desenvolvedorToolStripMenuItem2.Click += new System.EventHandler(this.desenvolvedorToolStripMenuItem2_Click);
             // 
             // administradorToolStripMenuItem1
             // 
             this.administradorToolStripMenuItem1.Name = "administradorToolStripMenuItem1";
-            this.administradorToolStripMenuItem1.Size = new System.Drawing.Size(206, 22);
+            this.administradorToolStripMenuItem1.Size = new System.Drawing.Size(236, 22);
             this.administradorToolStripMenuItem1.Text = "Administrador";
             this.administradorToolStripMenuItem1.Click += new System.EventHandler(this.administradorToolStripMenuItem1_Click);
             // 
             // topicoToolStripMenuItem2
             // 
             this.topicoToolStripMenuItem2.Name = "topicoToolStripMenuItem2";
-            this.topicoToolStripMenuItem2.Size = new System.Drawing.Size(206, 22);
-            this.topicoToolStripMenuItem2.Text = "Topico";
+            this.topicoToolStripMenuItem2.Size = new System.Drawing.Size(236, 22);
+            this.topicoToolStripMenuItem2.Text = "Tópico";
             this.topicoToolStripMenuItem2.Click += new System.EventHandler(this.topicoToolStripMenuItem2_Click);
             // 
             // relatórioToolStripMenuItem1
             // 
             this.relatórioToolStripMenuItem1.Name = "relatórioToolStripMenuItem1";
-            this.relatórioToolStripMenuItem1.Size = new System.Drawing.Size(206, 22);
-            this.relatórioToolStripMenuItem1.Text = "Relatório";
+            this.relatórioToolStripMenuItem1.Size = new System.Drawing.Size(236, 22);
+            this.relatórioToolStripMenuItem1.Text = "Report/Relatório";
             this.relatórioToolStripMenuItem1.Click += new System.EventHandler(this.relatórioToolStripMenuItem1_Click);
             // 
             // loginToolStripMenuItem
