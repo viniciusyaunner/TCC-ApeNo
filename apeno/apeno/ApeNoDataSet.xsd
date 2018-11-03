@@ -524,28 +524,28 @@ WHERE        (nickname LIKE ?)</CommandText>
   <xs:element name="ApeNoDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ApeNoDataSet" msprop:Generator_UserDSName="ApeNoDataSet">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="admin_sistema" msprop:Generator_TableClassName="admin_sistemaDataTable" msprop:Generator_TableVarName="tableadmin_sistema" msprop:Generator_TablePropName="admin_sistema" msprop:Generator_RowDeletingName="admin_sistemaRowDeleting" msprop:Generator_RowChangingName="admin_sistemaRowChanging" msprop:Generator_RowEvHandlerName="admin_sistemaRowChangeEventHandler" msprop:Generator_RowDeletedName="admin_sistemaRowDeleted" msprop:Generator_UserTableName="admin_sistema" msprop:Generator_RowChangedName="admin_sistemaRowChanged" msprop:Generator_RowEvArgName="admin_sistemaRowChangeEvent" msprop:Generator_RowClassName="admin_sistemaRow">
+        <xs:element name="admin_sistema" msprop:Generator_TableClassName="admin_sistemaDataTable" msprop:Generator_TableVarName="tableadmin_sistema" msprop:Generator_RowChangedName="admin_sistemaRowChanged" msprop:Generator_TablePropName="admin_sistema" msprop:Generator_RowDeletingName="admin_sistemaRowDeleting" msprop:Generator_RowChangingName="admin_sistemaRowChanging" msprop:Generator_RowEvHandlerName="admin_sistemaRowChangeEventHandler" msprop:Generator_RowDeletedName="admin_sistemaRowDeleted" msprop:Generator_RowClassName="admin_sistemaRow" msprop:Generator_UserTableName="admin_sistema" msprop:Generator_RowEvArgName="admin_sistemaRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="id_admin" msprop:Generator_ColumnVarNameInTable="columnid_admin" msprop:Generator_ColumnPropNameInRow="id_admin" msprop:Generator_ColumnPropNameInTable="id_adminColumn" msprop:Generator_UserColumnName="id_admin" type="xs:int" />
               <xs:element name="nomeadmin" msprop:Generator_ColumnVarNameInTable="columnnomeadmin" msprop:Generator_ColumnPropNameInRow="nomeadmin" msprop:Generator_ColumnPropNameInTable="nomeadminColumn" msprop:Generator_UserColumnName="nomeadmin" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
-                    <xs:maxLength value="40" />
+                    <xs:maxLength value="255" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
               <xs:element name="regiao" msprop:Generator_ColumnVarNameInTable="columnregiao" msprop:Generator_ColumnPropNameInRow="regiao" msprop:Generator_ColumnPropNameInTable="regiaoColumn" msprop:Generator_UserColumnName="regiao" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
-                    <xs:maxLength value="20" />
+                    <xs:maxLength value="50" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
               <xs:element name="endereco" msprop:Generator_ColumnVarNameInTable="columnendereco" msprop:Generator_ColumnPropNameInRow="endereco" msprop:Generator_ColumnPropNameInTable="enderecoColumn" msprop:Generator_UserColumnName="endereco" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
-                    <xs:maxLength value="40" />
+                    <xs:maxLength value="255" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
@@ -580,7 +580,7 @@ WHERE        (nickname LIKE ?)</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="controle_erro" msprop:Generator_TableClassName="controle_erroDataTable" msprop:Generator_TableVarName="tablecontrole_erro" msprop:Generator_TablePropName="controle_erro" msprop:Generator_RowDeletingName="controle_erroRowDeleting" msprop:Generator_RowChangingName="controle_erroRowChanging" msprop:Generator_RowEvHandlerName="controle_erroRowChangeEventHandler" msprop:Generator_RowDeletedName="controle_erroRowDeleted" msprop:Generator_UserTableName="controle_erro" msprop:Generator_RowChangedName="controle_erroRowChanged" msprop:Generator_RowEvArgName="controle_erroRowChangeEvent" msprop:Generator_RowClassName="controle_erroRow">
+        <xs:element name="controle_erro" msprop:Generator_TableClassName="controle_erroDataTable" msprop:Generator_TableVarName="tablecontrole_erro" msprop:Generator_RowChangedName="controle_erroRowChanged" msprop:Generator_TablePropName="controle_erro" msprop:Generator_RowDeletingName="controle_erroRowDeleting" msprop:Generator_RowChangingName="controle_erroRowChanging" msprop:Generator_RowEvHandlerName="controle_erroRowChangeEventHandler" msprop:Generator_RowDeletedName="controle_erroRowDeleted" msprop:Generator_RowClassName="controle_erroRow" msprop:Generator_UserTableName="controle_erro" msprop:Generator_RowEvArgName="controle_erroRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="id_des" msprop:Generator_ColumnVarNameInTable="columnid_des" msprop:Generator_ColumnPropNameInRow="id_des" msprop:Generator_ColumnPropNameInTable="id_desColumn" msprop:Generator_UserColumnName="id_des" type="xs:int" minOccurs="0" />
@@ -588,21 +588,21 @@ WHERE        (nickname LIKE ?)</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="desenvolvedores" msprop:Generator_TableClassName="desenvolvedoresDataTable" msprop:Generator_TableVarName="tabledesenvolvedores" msprop:Generator_TablePropName="desenvolvedores" msprop:Generator_RowDeletingName="desenvolvedoresRowDeleting" msprop:Generator_RowChangingName="desenvolvedoresRowChanging" msprop:Generator_RowEvHandlerName="desenvolvedoresRowChangeEventHandler" msprop:Generator_RowDeletedName="desenvolvedoresRowDeleted" msprop:Generator_UserTableName="desenvolvedores" msprop:Generator_RowChangedName="desenvolvedoresRowChanged" msprop:Generator_RowEvArgName="desenvolvedoresRowChangeEvent" msprop:Generator_RowClassName="desenvolvedoresRow">
+        <xs:element name="desenvolvedores" msprop:Generator_TableClassName="desenvolvedoresDataTable" msprop:Generator_TableVarName="tabledesenvolvedores" msprop:Generator_RowChangedName="desenvolvedoresRowChanged" msprop:Generator_TablePropName="desenvolvedores" msprop:Generator_RowDeletingName="desenvolvedoresRowDeleting" msprop:Generator_RowChangingName="desenvolvedoresRowChanging" msprop:Generator_RowEvHandlerName="desenvolvedoresRowChangeEventHandler" msprop:Generator_RowDeletedName="desenvolvedoresRowDeleted" msprop:Generator_RowClassName="desenvolvedoresRow" msprop:Generator_UserTableName="desenvolvedores" msprop:Generator_RowEvArgName="desenvolvedoresRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="id_des" msprop:Generator_ColumnVarNameInTable="columnid_des" msprop:Generator_ColumnPropNameInRow="id_des" msprop:Generator_ColumnPropNameInTable="id_desColumn" msprop:Generator_UserColumnName="id_des" type="xs:int" />
               <xs:element name="nome" msprop:Generator_ColumnVarNameInTable="columnnome" msprop:Generator_ColumnPropNameInRow="nome" msprop:Generator_ColumnPropNameInTable="nomeColumn" msprop:Generator_UserColumnName="nome" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
-                    <xs:maxLength value="40" />
+                    <xs:maxLength value="255" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
               <xs:element name="area" msprop:Generator_ColumnVarNameInTable="columnarea" msprop:Generator_ColumnPropNameInRow="area" msprop:Generator_ColumnPropNameInTable="areaColumn" msprop:Generator_UserColumnName="area" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
-                    <xs:maxLength value="20" />
+                    <xs:maxLength value="70" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
@@ -610,7 +610,7 @@ WHERE        (nickname LIKE ?)</CommandText>
               <xs:element name="report" msprop:Generator_ColumnVarNameInTable="columnreport" msprop:Generator_ColumnPropNameInRow="report" msprop:Generator_ColumnPropNameInTable="reportColumn" msprop:Generator_UserColumnName="report" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
-                    <xs:maxLength value="40" />
+                    <xs:maxLength value="255" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
@@ -618,7 +618,7 @@ WHERE        (nickname LIKE ?)</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="prti_topico" msprop:Generator_TableClassName="prti_topicoDataTable" msprop:Generator_TableVarName="tableprti_topico" msprop:Generator_TablePropName="prti_topico" msprop:Generator_RowDeletingName="prti_topicoRowDeleting" msprop:Generator_RowChangingName="prti_topicoRowChanging" msprop:Generator_RowEvHandlerName="prti_topicoRowChangeEventHandler" msprop:Generator_RowDeletedName="prti_topicoRowDeleted" msprop:Generator_UserTableName="prti_topico" msprop:Generator_RowChangedName="prti_topicoRowChanged" msprop:Generator_RowEvArgName="prti_topicoRowChangeEvent" msprop:Generator_RowClassName="prti_topicoRow">
+        <xs:element name="prti_topico" msprop:Generator_TableClassName="prti_topicoDataTable" msprop:Generator_TableVarName="tableprti_topico" msprop:Generator_RowChangedName="prti_topicoRowChanged" msprop:Generator_TablePropName="prti_topico" msprop:Generator_RowDeletingName="prti_topicoRowDeleting" msprop:Generator_RowChangingName="prti_topicoRowChanging" msprop:Generator_RowEvHandlerName="prti_topicoRowChangeEventHandler" msprop:Generator_RowDeletedName="prti_topicoRowDeleted" msprop:Generator_RowClassName="prti_topicoRow" msprop:Generator_UserTableName="prti_topico" msprop:Generator_RowEvArgName="prti_topicoRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="id_us" msprop:Generator_ColumnVarNameInTable="columnid_us" msprop:Generator_ColumnPropNameInRow="id_us" msprop:Generator_ColumnPropNameInTable="id_usColumn" msprop:Generator_UserColumnName="id_us" type="xs:int" minOccurs="0" />
@@ -633,42 +633,42 @@ WHERE        (nickname LIKE ?)</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="report" msprop:Generator_TableClassName="reportDataTable" msprop:Generator_TableVarName="tablereport" msprop:Generator_TablePropName="report" msprop:Generator_RowDeletingName="reportRowDeleting" msprop:Generator_RowChangingName="reportRowChanging" msprop:Generator_RowEvHandlerName="reportRowChangeEventHandler" msprop:Generator_RowDeletedName="reportRowDeleted" msprop:Generator_UserTableName="report" msprop:Generator_RowChangedName="reportRowChanged" msprop:Generator_RowEvArgName="reportRowChangeEvent" msprop:Generator_RowClassName="reportRow">
+        <xs:element name="report" msprop:Generator_TableClassName="reportDataTable" msprop:Generator_TableVarName="tablereport" msprop:Generator_RowChangedName="reportRowChanged" msprop:Generator_TablePropName="report" msprop:Generator_RowDeletingName="reportRowDeleting" msprop:Generator_RowChangingName="reportRowChanging" msprop:Generator_RowEvHandlerName="reportRowChangeEventHandler" msprop:Generator_RowDeletedName="reportRowDeleted" msprop:Generator_RowClassName="reportRow" msprop:Generator_UserTableName="report" msprop:Generator_RowEvArgName="reportRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="id_report" msprop:Generator_ColumnVarNameInTable="columnid_report" msprop:Generator_ColumnPropNameInRow="id_report" msprop:Generator_ColumnPropNameInTable="id_reportColumn" msprop:Generator_UserColumnName="id_report" type="xs:int" />
               <xs:element name="categoria" msprop:Generator_ColumnVarNameInTable="columncategoria" msprop:Generator_ColumnPropNameInRow="categoria" msprop:Generator_ColumnPropNameInTable="categoriaColumn" msprop:Generator_UserColumnName="categoria" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
-                    <xs:maxLength value="10" />
+                    <xs:maxLength value="70" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
               <xs:element name="relatorio" msprop:Generator_ColumnVarNameInTable="columnrelatorio" msprop:Generator_ColumnPropNameInRow="relatorio" msprop:Generator_ColumnPropNameInTable="relatorioColumn" msprop:Generator_UserColumnName="relatorio" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
-                    <xs:maxLength value="30" />
+                    <xs:maxLength value="255" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
               <xs:element name="area" msprop:Generator_ColumnVarNameInTable="columnarea" msprop:Generator_ColumnPropNameInRow="area" msprop:Generator_ColumnPropNameInTable="areaColumn" msprop:Generator_UserColumnName="area" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
-                    <xs:maxLength value="20" />
+                    <xs:maxLength value="255" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="topico" msprop:Generator_TableClassName="topicoDataTable" msprop:Generator_TableVarName="tabletopico" msprop:Generator_TablePropName="topico" msprop:Generator_RowDeletingName="topicoRowDeleting" msprop:Generator_RowChangingName="topicoRowChanging" msprop:Generator_RowEvHandlerName="topicoRowChangeEventHandler" msprop:Generator_RowDeletedName="topicoRowDeleted" msprop:Generator_UserTableName="topico" msprop:Generator_RowChangedName="topicoRowChanged" msprop:Generator_RowEvArgName="topicoRowChangeEvent" msprop:Generator_RowClassName="topicoRow">
+        <xs:element name="topico" msprop:Generator_TableClassName="topicoDataTable" msprop:Generator_TableVarName="tabletopico" msprop:Generator_RowChangedName="topicoRowChanged" msprop:Generator_TablePropName="topico" msprop:Generator_RowDeletingName="topicoRowDeleting" msprop:Generator_RowChangingName="topicoRowChanging" msprop:Generator_RowEvHandlerName="topicoRowChangeEventHandler" msprop:Generator_RowDeletedName="topicoRowDeleted" msprop:Generator_RowClassName="topicoRow" msprop:Generator_UserTableName="topico" msprop:Generator_RowEvArgName="topicoRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="id_topic" msprop:Generator_ColumnVarNameInTable="columnid_topic" msprop:Generator_ColumnPropNameInRow="id_topic" msprop:Generator_ColumnPropNameInTable="id_topicColumn" msprop:Generator_UserColumnName="id_topic" type="xs:int" />
               <xs:element name="nometopico" msprop:Generator_ColumnVarNameInTable="columnnometopico" msprop:Generator_ColumnPropNameInRow="nometopico" msprop:Generator_ColumnPropNameInTable="nometopicoColumn" msprop:Generator_UserColumnName="nometopico" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
-                    <xs:maxLength value="40" />
+                    <xs:maxLength value="120" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
@@ -677,7 +677,7 @@ WHERE        (nickname LIKE ?)</CommandText>
               <xs:element name="assunto" msprop:Generator_ColumnVarNameInTable="columnassunto" msprop:Generator_ColumnPropNameInRow="assunto" msprop:Generator_ColumnPropNameInTable="assuntoColumn" msprop:Generator_UserColumnName="assunto" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
-                    <xs:maxLength value="20" />
+                    <xs:maxLength value="70" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
@@ -691,28 +691,28 @@ WHERE        (nickname LIKE ?)</CommandText>
               <xs:element name="criador" msprop:Generator_ColumnVarNameInTable="columncriador" msprop:Generator_ColumnPropNameInRow="criador" msprop:Generator_ColumnPropNameInTable="criadorColumn" msprop:Generator_UserColumnName="criador" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
-                    <xs:maxLength value="20" />
+                    <xs:maxLength value="255" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="usuario" msprop:Generator_TableClassName="usuarioDataTable" msprop:Generator_TableVarName="tableusuario" msprop:Generator_TablePropName="usuario" msprop:Generator_RowDeletingName="usuarioRowDeleting" msprop:Generator_RowChangingName="usuarioRowChanging" msprop:Generator_RowEvHandlerName="usuarioRowChangeEventHandler" msprop:Generator_RowDeletedName="usuarioRowDeleted" msprop:Generator_UserTableName="usuario" msprop:Generator_RowChangedName="usuarioRowChanged" msprop:Generator_RowEvArgName="usuarioRowChangeEvent" msprop:Generator_RowClassName="usuarioRow">
+        <xs:element name="usuario" msprop:Generator_TableClassName="usuarioDataTable" msprop:Generator_TableVarName="tableusuario" msprop:Generator_RowChangedName="usuarioRowChanged" msprop:Generator_TablePropName="usuario" msprop:Generator_RowDeletingName="usuarioRowDeleting" msprop:Generator_RowChangingName="usuarioRowChanging" msprop:Generator_RowEvHandlerName="usuarioRowChangeEventHandler" msprop:Generator_RowDeletedName="usuarioRowDeleted" msprop:Generator_RowClassName="usuarioRow" msprop:Generator_UserTableName="usuario" msprop:Generator_RowEvArgName="usuarioRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="id_us" msprop:Generator_ColumnVarNameInTable="columnid_us" msprop:Generator_ColumnPropNameInRow="id_us" msprop:Generator_ColumnPropNameInTable="id_usColumn" msprop:Generator_UserColumnName="id_us" type="xs:int" />
               <xs:element name="nome" msprop:Generator_ColumnVarNameInTable="columnnome" msprop:Generator_ColumnPropNameInRow="nome" msprop:Generator_ColumnPropNameInTable="nomeColumn" msprop:Generator_UserColumnName="nome" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
-                    <xs:maxLength value="40" />
+                    <xs:maxLength value="255" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
               <xs:element name="nickname" msprop:Generator_ColumnVarNameInTable="columnnickname" msprop:Generator_ColumnPropNameInRow="nickname" msprop:Generator_ColumnPropNameInTable="nicknameColumn" msprop:Generator_UserColumnName="nickname" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
-                    <xs:maxLength value="20" />
+                    <xs:maxLength value="70" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
@@ -726,14 +726,14 @@ WHERE        (nickname LIKE ?)</CommandText>
               <xs:element name="pais" msprop:Generator_ColumnVarNameInTable="columnpais" msprop:Generator_ColumnPropNameInRow="pais" msprop:Generator_ColumnPropNameInTable="paisColumn" msprop:Generator_UserColumnName="pais" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
-                    <xs:maxLength value="20" />
+                    <xs:maxLength value="40" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
               <xs:element name="email" msprop:Generator_ColumnVarNameInTable="columnemail" msprop:Generator_ColumnPropNameInRow="email" msprop:Generator_ColumnPropNameInTable="emailColumn" msprop:Generator_UserColumnName="email" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
-                    <xs:maxLength value="100" />
+                    <xs:maxLength value="120" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
@@ -766,12 +766,12 @@ WHERE        (nickname LIKE ?)</CommandText>
   </xs:element>
   <xs:annotation>
     <xs:appinfo>
-      <msdata:Relationship name="desenvolvedorescontrole_erro" msdata:parent="desenvolvedores" msdata:child="controle_erro" msdata:parentkey="id_des" msdata:childkey="id_des" msprop:Generator_UserChildTable="controle_erro" msprop:Generator_ChildPropName="Getcontrole_erroRows" msprop:Generator_UserRelationName="desenvolvedorescontrole_erro" msprop:Generator_RelationVarName="relationdesenvolvedorescontrole_erro" msprop:Generator_UserParentTable="desenvolvedores" msprop:Generator_ParentPropName="desenvolvedoresRow" />
-      <msdata:Relationship name="reportcontrole_erro" msdata:parent="report" msdata:child="controle_erro" msdata:parentkey="id_report" msdata:childkey="id_report" msprop:Generator_UserChildTable="controle_erro" msprop:Generator_ChildPropName="Getcontrole_erroRows" msprop:Generator_UserRelationName="reportcontrole_erro" msprop:Generator_RelationVarName="relationreportcontrole_erro" msprop:Generator_UserParentTable="report" msprop:Generator_ParentPropName="reportRow" />
-      <msdata:Relationship name="admin_sistemadesenvolvedores" msdata:parent="admin_sistema" msdata:child="desenvolvedores" msdata:parentkey="id_admin" msdata:childkey="id_admin" msprop:Generator_UserChildTable="desenvolvedores" msprop:Generator_ChildPropName="GetdesenvolvedoresRows" msprop:Generator_UserRelationName="admin_sistemadesenvolvedores" msprop:Generator_ParentPropName="admin_sistemaRow" msprop:Generator_RelationVarName="relationadmin_sistemadesenvolvedores" msprop:Generator_UserParentTable="admin_sistema" />
-      <msdata:Relationship name="topicoprti_topico" msdata:parent="topico" msdata:child="prti_topico" msdata:parentkey="id_topic" msdata:childkey="id_topic" msprop:Generator_UserChildTable="prti_topico" msprop:Generator_ChildPropName="Getprti_topicoRows" msprop:Generator_UserRelationName="topicoprti_topico" msprop:Generator_RelationVarName="relationtopicoprti_topico" msprop:Generator_UserParentTable="topico" msprop:Generator_ParentPropName="topicoRow" />
-      <msdata:Relationship name="usuarioprti_topico" msdata:parent="usuario" msdata:child="prti_topico" msdata:parentkey="nickname" msdata:childkey="nickname" msprop:Generator_UserChildTable="prti_topico" msprop:Generator_ChildPropName="Getprti_topicoRows" msprop:Generator_UserRelationName="usuarioprti_topico" msprop:Generator_RelationVarName="relationusuarioprti_topico" msprop:Generator_UserParentTable="usuario" msprop:Generator_ParentPropName="usuarioRow" />
-      <msdata:Relationship name="admin_sistemausuario" msdata:parent="admin_sistema" msdata:child="usuario" msdata:parentkey="id_admin" msdata:childkey="id_admin" msprop:Generator_UserChildTable="usuario" msprop:Generator_ChildPropName="GetusuarioRows" msprop:Generator_UserRelationName="admin_sistemausuario" msprop:Generator_ParentPropName="admin_sistemaRow" msprop:Generator_RelationVarName="relationadmin_sistemausuario" msprop:Generator_UserParentTable="admin_sistema" />
+      <msdata:Relationship name="desenvolvedorescontrole_erro" msdata:parent="desenvolvedores" msdata:child="controle_erro" msdata:parentkey="id_des" msdata:childkey="id_des" msprop:Generator_UserChildTable="controle_erro" msprop:Generator_ChildPropName="Getcontrole_erroRows" msprop:Generator_UserRelationName="desenvolvedorescontrole_erro" msprop:Generator_ParentPropName="desenvolvedoresRow" msprop:Generator_RelationVarName="relationdesenvolvedorescontrole_erro" msprop:Generator_UserParentTable="desenvolvedores" />
+      <msdata:Relationship name="reportcontrole_erro" msdata:parent="report" msdata:child="controle_erro" msdata:parentkey="id_report" msdata:childkey="id_report" msprop:Generator_UserChildTable="controle_erro" msprop:Generator_ChildPropName="Getcontrole_erroRows" msprop:Generator_UserRelationName="reportcontrole_erro" msprop:Generator_ParentPropName="reportRow" msprop:Generator_RelationVarName="relationreportcontrole_erro" msprop:Generator_UserParentTable="report" />
+      <msdata:Relationship name="admin_sistemadesenvolvedores" msdata:parent="admin_sistema" msdata:child="desenvolvedores" msdata:parentkey="id_admin" msdata:childkey="id_admin" msprop:Generator_UserChildTable="desenvolvedores" msprop:Generator_ChildPropName="GetdesenvolvedoresRows" msprop:Generator_UserRelationName="admin_sistemadesenvolvedores" msprop:Generator_RelationVarName="relationadmin_sistemadesenvolvedores" msprop:Generator_UserParentTable="admin_sistema" msprop:Generator_ParentPropName="admin_sistemaRow" />
+      <msdata:Relationship name="topicoprti_topico" msdata:parent="topico" msdata:child="prti_topico" msdata:parentkey="id_topic" msdata:childkey="id_topic" msprop:Generator_UserChildTable="prti_topico" msprop:Generator_ChildPropName="Getprti_topicoRows" msprop:Generator_UserRelationName="topicoprti_topico" msprop:Generator_ParentPropName="topicoRow" msprop:Generator_RelationVarName="relationtopicoprti_topico" msprop:Generator_UserParentTable="topico" />
+      <msdata:Relationship name="usuarioprti_topico" msdata:parent="usuario" msdata:child="prti_topico" msdata:parentkey="nickname" msdata:childkey="nickname" msprop:Generator_UserChildTable="prti_topico" msprop:Generator_ChildPropName="Getprti_topicoRows" msprop:Generator_UserRelationName="usuarioprti_topico" msprop:Generator_ParentPropName="usuarioRow" msprop:Generator_RelationVarName="relationusuarioprti_topico" msprop:Generator_UserParentTable="usuario" />
+      <msdata:Relationship name="admin_sistemausuario" msdata:parent="admin_sistema" msdata:child="usuario" msdata:parentkey="id_admin" msdata:childkey="id_admin" msprop:Generator_UserChildTable="usuario" msprop:Generator_ChildPropName="GetusuarioRows" msprop:Generator_UserRelationName="admin_sistemausuario" msprop:Generator_RelationVarName="relationadmin_sistemausuario" msprop:Generator_UserParentTable="admin_sistema" msprop:Generator_ParentPropName="admin_sistemaRow" />
     </xs:appinfo>
   </xs:annotation>
 </xs:schema>

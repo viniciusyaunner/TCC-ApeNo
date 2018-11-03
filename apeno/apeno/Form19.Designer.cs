@@ -56,10 +56,10 @@
             reportDataSource1.Value = this.reportBindingSource;
             this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
             this.reportViewer1.LocalReport.ReportEmbeddedResource = "apeno.Report5.rdlc";
-            this.reportViewer1.Location = new System.Drawing.Point(42, 24);
+            this.reportViewer1.Location = new System.Drawing.Point(39, 67);
             this.reportViewer1.Margin = new System.Windows.Forms.Padding(4);
             this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.Size = new System.Drawing.Size(614, 321);
+            this.reportViewer1.Size = new System.Drawing.Size(510, 220);
             this.reportViewer1.TabIndex = 0;
             // 
             // reportTableAdapter
@@ -71,7 +71,7 @@
             this.button1.BackColor = System.Drawing.Color.DimGray;
             this.button1.Font = new System.Drawing.Font("OCR A Extended", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(548, 372);
+            this.button1.Location = new System.Drawing.Point(584, 357);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(84, 40);
             this.button1.TabIndex = 17;

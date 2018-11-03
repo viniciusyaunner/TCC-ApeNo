@@ -754,9 +754,9 @@ namespace apeno {
                                 this.columnid_admin}, true));
                 this.columnid_admin.AllowDBNull = false;
                 this.columnid_admin.Unique = true;
-                this.columnnomeadmin.MaxLength = 40;
-                this.columnregiao.MaxLength = 20;
-                this.columnendereco.MaxLength = 40;
+                this.columnnomeadmin.MaxLength = 255;
+                this.columnregiao.MaxLength = 50;
+                this.columnendereco.MaxLength = 255;
                 this.columntelefone.MaxLength = 14;
                 this.columncelular.MaxLength = 14;
                 this.columnexpediente.MaxLength = 40;
@@ -1359,9 +1359,9 @@ namespace apeno {
                                 this.columnid_des}, true));
                 this.columnid_des.AllowDBNull = false;
                 this.columnid_des.Unique = true;
-                this.columnnome.MaxLength = 40;
-                this.columnarea.MaxLength = 20;
-                this.columnreport.MaxLength = 40;
+                this.columnnome.MaxLength = 255;
+                this.columnarea.MaxLength = 70;
+                this.columnreport.MaxLength = 255;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1944,9 +1944,9 @@ namespace apeno {
                                 this.columnid_report}, true));
                 this.columnid_report.AllowDBNull = false;
                 this.columnid_report.Unique = true;
-                this.columncategoria.MaxLength = 10;
-                this.columnrelatorio.MaxLength = 30;
-                this.columnarea.MaxLength = 20;
+                this.columncategoria.MaxLength = 70;
+                this.columnrelatorio.MaxLength = 255;
+                this.columnarea.MaxLength = 255;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2289,10 +2289,10 @@ namespace apeno {
                                 this.columnid_topic}, true));
                 this.columnid_topic.AllowDBNull = false;
                 this.columnid_topic.Unique = true;
-                this.columnnometopico.MaxLength = 40;
-                this.columnassunto.MaxLength = 20;
+                this.columnnometopico.MaxLength = 120;
+                this.columnassunto.MaxLength = 70;
                 this.columndescricao.MaxLength = 536870910;
-                this.columncriador.MaxLength = 20;
+                this.columncriador.MaxLength = 255;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2638,11 +2638,11 @@ namespace apeno {
                                 this.columnid_us}, true));
                 this.columnid_us.AllowDBNull = false;
                 this.columnid_us.Unique = true;
-                this.columnnome.MaxLength = 40;
-                this.columnnickname.MaxLength = 20;
+                this.columnnome.MaxLength = 255;
+                this.columnnickname.MaxLength = 70;
                 this.columnsenha.MaxLength = 40;
-                this.columnpais.MaxLength = 20;
-                this.columnemail.MaxLength = 100;
+                this.columnpais.MaxLength = 40;
+                this.columnemail.MaxLength = 120;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

@@ -56,10 +56,10 @@
             reportDataSource1.Value = this.topicoBindingSource;
             this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
             this.reportViewer1.LocalReport.ReportEmbeddedResource = "apeno.Report4.rdlc";
-            this.reportViewer1.Location = new System.Drawing.Point(58, 26);
+            this.reportViewer1.Location = new System.Drawing.Point(33, 80);
             this.reportViewer1.Margin = new System.Windows.Forms.Padding(4);
             this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.Size = new System.Drawing.Size(593, 321);
+            this.reportViewer1.Size = new System.Drawing.Size(510, 220);
             this.reportViewer1.TabIndex = 0;
             // 
             // topicoTableAdapter
@@ -70,7 +70,7 @@
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(314, 370);
+            this.button1.Location = new System.Drawing.Point(562, 378);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(112, 30);

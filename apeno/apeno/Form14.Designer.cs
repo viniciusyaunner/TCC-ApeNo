@@ -61,7 +61,7 @@
             this.reportDataGridView.DataSource = this.reportBindingSource;
             this.reportDataGridView.Location = new System.Drawing.Point(91, 124);
             this.reportDataGridView.Name = "reportDataGridView";
-            this.reportDataGridView.Size = new System.Drawing.Size(446, 220);
+            this.reportDataGridView.Size = new System.Drawing.Size(510, 220);
             this.reportDataGridView.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn1
@@ -101,7 +101,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(253, 63);
+            this.textBox1.Location = new System.Drawing.Point(253, 66);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(232, 23);
             this.textBox1.TabIndex = 2;
@@ -112,7 +112,7 @@
             this.button1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.button1.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(515, 59);
+            this.button1.Location = new System.Drawing.Point(515, 65);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 30);
             this.button1.TabIndex = 3;
@@ -126,7 +126,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(59, 66);
+            this.label1.Location = new System.Drawing.Point(59, 72);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(188, 17);
             this.label1.TabIndex = 5;
@@ -138,7 +138,7 @@
             this.button2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.button2.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button2.Location = new System.Drawing.Point(610, 59);
+            this.button2.Location = new System.Drawing.Point(610, 65);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(81, 30);

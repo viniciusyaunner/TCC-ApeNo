@@ -90,7 +90,7 @@
             this.desenvolvedoresDataGridView.DataSource = this.desenvolvedoresBindingSource;
             this.desenvolvedoresDataGridView.Location = new System.Drawing.Point(104, 186);
             this.desenvolvedoresDataGridView.Name = "desenvolvedoresDataGridView";
-            this.desenvolvedoresDataGridView.Size = new System.Drawing.Size(509, 220);
+            this.desenvolvedoresDataGridView.Size = new System.Drawing.Size(510, 220);
             this.desenvolvedoresDataGridView.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn1

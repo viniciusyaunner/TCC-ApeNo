@@ -322,7 +322,7 @@
             this.id_topicTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.topicoBindingSource, "id_topic", true));
             this.id_topicTextBox.Location = new System.Drawing.Point(220, 91);
             this.id_topicTextBox.Name = "id_topicTextBox";
-            this.id_topicTextBox.Size = new System.Drawing.Size(100, 23);
+            this.id_topicTextBox.Size = new System.Drawing.Size(130, 23);
             this.id_topicTextBox.TabIndex = 2;
             // 
             // nometopicoTextBox
@@ -330,7 +330,7 @@
             this.nometopicoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.topicoBindingSource, "nometopico", true));
             this.nometopicoTextBox.Location = new System.Drawing.Point(220, 120);
             this.nometopicoTextBox.Name = "nometopicoTextBox";
-            this.nometopicoTextBox.Size = new System.Drawing.Size(100, 23);
+            this.nometopicoTextBox.Size = new System.Drawing.Size(130, 23);
             this.nometopicoTextBox.TabIndex = 4;
             // 
             // numparticipantesTextBox
@@ -338,39 +338,39 @@
             this.numparticipantesTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.topicoBindingSource, "numparticipantes", true));
             this.numparticipantesTextBox.Location = new System.Drawing.Point(220, 149);
             this.numparticipantesTextBox.Name = "numparticipantesTextBox";
-            this.numparticipantesTextBox.Size = new System.Drawing.Size(100, 23);
+            this.numparticipantesTextBox.Size = new System.Drawing.Size(130, 23);
             this.numparticipantesTextBox.TabIndex = 6;
             // 
             // qte_adminTextBox
             // 
             this.qte_adminTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.topicoBindingSource, "qte_admin", true));
-            this.qte_adminTextBox.Location = new System.Drawing.Point(581, 88);
+            this.qte_adminTextBox.Location = new System.Drawing.Point(560, 88);
             this.qte_adminTextBox.Name = "qte_adminTextBox";
-            this.qte_adminTextBox.Size = new System.Drawing.Size(100, 23);
+            this.qte_adminTextBox.Size = new System.Drawing.Size(121, 23);
             this.qte_adminTextBox.TabIndex = 8;
             // 
             // assuntoTextBox
             // 
             this.assuntoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.topicoBindingSource, "assunto", true));
-            this.assuntoTextBox.Location = new System.Drawing.Point(581, 117);
+            this.assuntoTextBox.Location = new System.Drawing.Point(560, 117);
             this.assuntoTextBox.Name = "assuntoTextBox";
-            this.assuntoTextBox.Size = new System.Drawing.Size(100, 23);
+            this.assuntoTextBox.Size = new System.Drawing.Size(121, 23);
             this.assuntoTextBox.TabIndex = 10;
             // 
             // descricaoTextBox
             // 
             this.descricaoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.topicoBindingSource, "descricao", true));
-            this.descricaoTextBox.Location = new System.Drawing.Point(581, 146);
+            this.descricaoTextBox.Location = new System.Drawing.Point(560, 146);
             this.descricaoTextBox.Name = "descricaoTextBox";
-            this.descricaoTextBox.Size = new System.Drawing.Size(100, 23);
+            this.descricaoTextBox.Size = new System.Drawing.Size(121, 23);
             this.descricaoTextBox.TabIndex = 12;
             // 
             // criadorTextBox
             // 
             this.criadorTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.topicoBindingSource, "criador", true));
-            this.criadorTextBox.Location = new System.Drawing.Point(581, 175);
+            this.criadorTextBox.Location = new System.Drawing.Point(560, 175);
             this.criadorTextBox.Name = "criadorTextBox";
-            this.criadorTextBox.Size = new System.Drawing.Size(100, 23);
+            this.criadorTextBox.Size = new System.Drawing.Size(121, 23);
             this.criadorTextBox.TabIndex = 14;
             // 
             // prti_topicoBindingSource

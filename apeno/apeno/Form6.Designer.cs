@@ -59,13 +59,13 @@
             this.nomeadminTextBox = new System.Windows.Forms.TextBox();
             this.regiaoTextBox = new System.Windows.Forms.TextBox();
             this.enderecoTextBox = new System.Windows.Forms.TextBox();
-            this.expedienteTextBox = new System.Windows.Forms.TextBox();
             this.senhaTextBox = new System.Windows.Forms.TextBox();
             this.prti_topicoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.prti_topicoTableAdapter = new apeno.ApeNoDataSetTableAdapters.prti_topicoTableAdapter();
             this.button1 = new System.Windows.Forms.Button();
             this.telefoneMaskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.celularMaskedTextBox = new System.Windows.Forms.MaskedTextBox();
+            this.expedienteTextBox = new System.Windows.Forms.TextBox();
             id_adminLabel = new System.Windows.Forms.Label();
             nomeadminLabel = new System.Windows.Forms.Label();
             regiaoLabel = new System.Windows.Forms.Label();
@@ -230,7 +230,7 @@
             this.admin_sistemaBindingNavigator.Name = "admin_sistemaBindingNavigator";
             this.admin_sistemaBindingNavigator.Padding = new System.Windows.Forms.Padding(0, 0, 2, 0);
             this.admin_sistemaBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.admin_sistemaBindingNavigator.Size = new System.Drawing.Size(736, 25);
+            this.admin_sistemaBindingNavigator.Size = new System.Drawing.Size(900, 25);
             this.admin_sistemaBindingNavigator.TabIndex = 0;
             this.admin_sistemaBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -364,15 +364,6 @@
             this.enderecoTextBox.Size = new System.Drawing.Size(148, 23);
             this.enderecoTextBox.TabIndex = 8;
             // 
-            // expedienteTextBox
-            // 
-            this.expedienteTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.admin_sistemaBindingSource, "expediente", true));
-            this.expedienteTextBox.Location = new System.Drawing.Point(518, 141);
-            this.expedienteTextBox.Margin = new System.Windows.Forms.Padding(4);
-            this.expedienteTextBox.Name = "expedienteTextBox";
-            this.expedienteTextBox.Size = new System.Drawing.Size(148, 23);
-            this.expedienteTextBox.TabIndex = 14;
-            // 
             // senhaTextBox
             // 
             this.senhaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.admin_sistemaBindingSource, "senha", true));
@@ -423,6 +414,14 @@
             this.celularMaskedTextBox.Size = new System.Drawing.Size(148, 23);
             this.celularMaskedTextBox.TabIndex = 20;
             // 
+            // expedienteTextBox
+            // 
+            this.expedienteTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.admin_sistemaBindingSource, "expediente", true));
+            this.expedienteTextBox.Location = new System.Drawing.Point(518, 141);
+            this.expedienteTextBox.Name = "expedienteTextBox";
+            this.expedienteTextBox.Size = new System.Drawing.Size(148, 23);
+            this.expedienteTextBox.TabIndex = 21;
+            // 
             // Form6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
@@ -430,7 +429,8 @@
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.BackgroundImage = global::apeno.Properties.Resources.blue;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(736, 441);
+            this.ClientSize = new System.Drawing.Size(900, 441);
+            this.Controls.Add(this.expedienteTextBox);
             this.Controls.Add(this.celularMaskedTextBox);
             this.Controls.Add(this.telefoneMaskedTextBox1);
             this.Controls.Add(this.button1);
@@ -445,7 +445,6 @@
             this.Controls.Add(telefoneLabel);
             this.Controls.Add(celularLabel);
             this.Controls.Add(expedienteLabel);
-            this.Controls.Add(this.expedienteTextBox);
             this.Controls.Add(senhaLabel);
             this.Controls.Add(this.senhaTextBox);
             this.Controls.Add(this.admin_sistemaBindingNavigator);
@@ -491,12 +490,12 @@
         private System.Windows.Forms.TextBox nomeadminTextBox;
         private System.Windows.Forms.TextBox regiaoTextBox;
         private System.Windows.Forms.TextBox enderecoTextBox;
-        private System.Windows.Forms.TextBox expedienteTextBox;
         private System.Windows.Forms.TextBox senhaTextBox;
         private System.Windows.Forms.BindingSource prti_topicoBindingSource;
         private ApeNoDataSetTableAdapters.prti_topicoTableAdapter prti_topicoTableAdapter;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.MaskedTextBox telefoneMaskedTextBox1;
         private System.Windows.Forms.MaskedTextBox celularMaskedTextBox;
+        private System.Windows.Forms.TextBox expedienteTextBox;
     }
 }

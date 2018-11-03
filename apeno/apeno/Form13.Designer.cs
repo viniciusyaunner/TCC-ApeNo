@@ -82,7 +82,7 @@
             this.admin_sistemaDataGridView.DataSource = this.admin_sistemaBindingSource;
             this.admin_sistemaDataGridView.Location = new System.Drawing.Point(127, 136);
             this.admin_sistemaDataGridView.Name = "admin_sistemaDataGridView";
-            this.admin_sistemaDataGridView.Size = new System.Drawing.Size(469, 220);
+            this.admin_sistemaDataGridView.Size = new System.Drawing.Size(510, 220);
             this.admin_sistemaDataGridView.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn1
@@ -138,7 +138,7 @@
             this.button1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.button1.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.Control;
-            this.button1.Location = new System.Drawing.Point(440, 64);
+            this.button1.Location = new System.Drawing.Point(481, 73);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 29);
             this.button1.TabIndex = 2;
@@ -148,7 +148,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(258, 70);
+            this.textBox1.Location = new System.Drawing.Point(291, 79);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(176, 20);
             this.textBox1.TabIndex = 3;
@@ -158,7 +158,7 @@
             this.button2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.button2.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.Control;
-            this.button2.Location = new System.Drawing.Point(521, 64);
+            this.button2.Location = new System.Drawing.Point(562, 73);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 29);
             this.button2.TabIndex = 4;
@@ -172,11 +172,11 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(124, 73);
+            this.label1.Location = new System.Drawing.Point(124, 82);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(125, 17);
+            this.label1.Size = new System.Drawing.Size(161, 17);
             this.label1.TabIndex = 5;
-            this.label1.Text = "Buscar Região";
+            this.label1.Text = "Buscar por Região";
             // 
             // tableAdapterManager
             // 

@@ -111,8 +111,8 @@
             // topicoToolStripMenuItem
             // 
             this.topicoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.participaçãoDeTopicoToolStripMenuItem,
-            this.topicoToolStripMenuItem1});
+            this.topicoToolStripMenuItem1,
+            this.participaçãoDeTopicoToolStripMenuItem});
             this.topicoToolStripMenuItem.Name = "topicoToolStripMenuItem";
             this.topicoToolStripMenuItem.Size = new System.Drawing.Size(80, 21);
             this.topicoToolStripMenuItem.Text = "Tópico";
@@ -134,8 +134,8 @@
             // reportToolStripMenuItem
             // 
             this.reportToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.controleToolStripMenuItem,
-            this.relatorioToolStripMenuItem});
+            this.relatorioToolStripMenuItem,
+            this.controleToolStripMenuItem});
             this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
             this.reportToolStripMenuItem.Size = new System.Drawing.Size(80, 21);
             this.reportToolStripMenuItem.Text = "Report";

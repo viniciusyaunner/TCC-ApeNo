@@ -81,7 +81,7 @@
             id_usLabel.BackColor = System.Drawing.Color.Transparent;
             id_usLabel.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             id_usLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            id_usLabel.Location = new System.Drawing.Point(78, 134);
+            id_usLabel.Location = new System.Drawing.Point(407, 178);
             id_usLabel.Name = "id_usLabel";
             id_usLabel.Size = new System.Drawing.Size(62, 17);
             id_usLabel.TabIndex = 1;
@@ -93,7 +93,7 @@
             nomeLabel.BackColor = System.Drawing.Color.Transparent;
             nomeLabel.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             nomeLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            nomeLabel.Location = new System.Drawing.Point(78, 160);
+            nomeLabel.Location = new System.Drawing.Point(78, 79);
             nomeLabel.Name = "nomeLabel";
             nomeLabel.Size = new System.Drawing.Size(53, 17);
             nomeLabel.TabIndex = 3;
@@ -105,7 +105,7 @@
             nicknameLabel.BackColor = System.Drawing.Color.Transparent;
             nicknameLabel.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             nicknameLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            nicknameLabel.Location = new System.Drawing.Point(78, 186);
+            nicknameLabel.Location = new System.Drawing.Point(67, 175);
             nicknameLabel.Name = "nicknameLabel";
             nicknameLabel.Size = new System.Drawing.Size(89, 17);
             nicknameLabel.TabIndex = 5;
@@ -117,7 +117,7 @@
             senhaLabel.BackColor = System.Drawing.Color.Transparent;
             senhaLabel.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             senhaLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            senhaLabel.Location = new System.Drawing.Point(78, 212);
+            senhaLabel.Location = new System.Drawing.Point(78, 223);
             senhaLabel.Name = "senhaLabel";
             senhaLabel.Size = new System.Drawing.Size(62, 17);
             senhaLabel.TabIndex = 7;
@@ -129,7 +129,7 @@
             paisLabel.BackColor = System.Drawing.Color.Transparent;
             paisLabel.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             paisLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            paisLabel.Location = new System.Drawing.Point(395, 137);
+            paisLabel.Location = new System.Drawing.Point(416, 125);
             paisLabel.Name = "paisLabel";
             paisLabel.Size = new System.Drawing.Size(53, 17);
             paisLabel.TabIndex = 9;
@@ -141,7 +141,7 @@
             emailLabel.BackColor = System.Drawing.Color.Transparent;
             emailLabel.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             emailLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            emailLabel.Location = new System.Drawing.Point(395, 163);
+            emailLabel.Location = new System.Drawing.Point(78, 130);
             emailLabel.Name = "emailLabel";
             emailLabel.Size = new System.Drawing.Size(62, 17);
             emailLabel.TabIndex = 11;
@@ -153,7 +153,7 @@
             id_adminLabel.BackColor = System.Drawing.Color.Transparent;
             id_adminLabel.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             id_adminLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            id_adminLabel.Location = new System.Drawing.Point(395, 189);
+            id_adminLabel.Location = new System.Drawing.Point(391, 229);
             id_adminLabel.Name = "id_adminLabel";
             id_adminLabel.Size = new System.Drawing.Size(89, 17);
             id_adminLabel.TabIndex = 13;
@@ -315,7 +315,7 @@
             this.id_usTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuarioBindingSource, "id_us", true));
             this.id_usTextBox.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.id_usTextBox.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.id_usTextBox.Location = new System.Drawing.Point(181, 131);
+            this.id_usTextBox.Location = new System.Drawing.Point(496, 175);
             this.id_usTextBox.Name = "id_usTextBox";
             this.id_usTextBox.Size = new System.Drawing.Size(100, 23);
             this.id_usTextBox.TabIndex = 2;
@@ -326,9 +326,9 @@
             this.nomeTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuarioBindingSource, "nome", true));
             this.nomeTextBox.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nomeTextBox.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.nomeTextBox.Location = new System.Drawing.Point(181, 157);
+            this.nomeTextBox.Location = new System.Drawing.Point(162, 76);
             this.nomeTextBox.Name = "nomeTextBox";
-            this.nomeTextBox.Size = new System.Drawing.Size(100, 23);
+            this.nomeTextBox.Size = new System.Drawing.Size(434, 23);
             this.nomeTextBox.TabIndex = 4;
             // 
             // nicknameTextBox
@@ -337,9 +337,9 @@
             this.nicknameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuarioBindingSource, "nickname", true));
             this.nicknameTextBox.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nicknameTextBox.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.nicknameTextBox.Location = new System.Drawing.Point(181, 183);
+            this.nicknameTextBox.Location = new System.Drawing.Point(162, 172);
             this.nicknameTextBox.Name = "nicknameTextBox";
-            this.nicknameTextBox.Size = new System.Drawing.Size(100, 23);
+            this.nicknameTextBox.Size = new System.Drawing.Size(229, 23);
             this.nicknameTextBox.TabIndex = 6;
             // 
             // senhaTextBox
@@ -348,10 +348,10 @@
             this.senhaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuarioBindingSource, "senha", true));
             this.senhaTextBox.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.senhaTextBox.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.senhaTextBox.Location = new System.Drawing.Point(181, 209);
+            this.senhaTextBox.Location = new System.Drawing.Point(162, 220);
             this.senhaTextBox.Name = "senhaTextBox";
             this.senhaTextBox.PasswordChar = '*';
-            this.senhaTextBox.Size = new System.Drawing.Size(100, 23);
+            this.senhaTextBox.Size = new System.Drawing.Size(229, 23);
             this.senhaTextBox.TabIndex = 8;
             // 
             // id_adminTextBox
@@ -360,9 +360,9 @@
             this.id_adminTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuarioBindingSource, "id_admin", true));
             this.id_adminTextBox.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.id_adminTextBox.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.id_adminTextBox.Location = new System.Drawing.Point(519, 183);
+            this.id_adminTextBox.Location = new System.Drawing.Point(496, 223);
             this.id_adminTextBox.Name = "id_adminTextBox";
-            this.id_adminTextBox.Size = new System.Drawing.Size(121, 23);
+            this.id_adminTextBox.Size = new System.Drawing.Size(100, 23);
             this.id_adminTextBox.TabIndex = 14;
             // 
             // button1
@@ -392,7 +392,7 @@
             "Chile ",
             "Mexico",
             "Canada"});
-            this.paisComboBox.Location = new System.Drawing.Point(519, 130);
+            this.paisComboBox.Location = new System.Drawing.Point(475, 122);
             this.paisComboBox.Name = "paisComboBox";
             this.paisComboBox.Size = new System.Drawing.Size(121, 25);
             this.paisComboBox.TabIndex = 17;
@@ -401,9 +401,9 @@
             // 
             this.emailTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuarioBindingSource, "email", true));
             this.emailTextBox.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.emailTextBox.Location = new System.Drawing.Point(519, 157);
+            this.emailTextBox.Location = new System.Drawing.Point(162, 124);
             this.emailTextBox.Name = "emailTextBox";
-            this.emailTextBox.Size = new System.Drawing.Size(121, 23);
+            this.emailTextBox.Size = new System.Drawing.Size(248, 23);
             this.emailTextBox.TabIndex = 18;
             // 
             // Form4

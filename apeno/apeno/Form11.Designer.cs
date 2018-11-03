@@ -90,9 +90,9 @@
             this.dataGridViewTextBoxColumn6,
             this.dataGridViewTextBoxColumn7});
             this.usuarioDataGridView.DataSource = this.usuarioBindingSource;
-            this.usuarioDataGridView.Location = new System.Drawing.Point(32, 146);
+            this.usuarioDataGridView.Location = new System.Drawing.Point(94, 141);
             this.usuarioDataGridView.Name = "usuarioDataGridView";
-            this.usuarioDataGridView.Size = new System.Drawing.Size(633, 192);
+            this.usuarioDataGridView.Size = new System.Drawing.Size(510, 220);
             this.usuarioDataGridView.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn1
@@ -139,7 +139,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(218, 60);
+            this.textBox1.Location = new System.Drawing.Point(209, 82);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(251, 19);
             this.textBox1.TabIndex = 2;
@@ -149,7 +149,7 @@
             this.button1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.button1.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(494, 58);
+            this.button1.Location = new System.Drawing.Point(491, 70);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(87, 31);
             this.button1.TabIndex = 3;
@@ -162,7 +162,7 @@
             this.button2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.button2.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(597, 58);
+            this.button2.Location = new System.Drawing.Point(594, 70);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(87, 31);
             this.button2.TabIndex = 4;
@@ -176,7 +176,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(39, 62);
+            this.label1.Location = new System.Drawing.Point(39, 84);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(143, 17);
             this.label1.TabIndex = 5;
