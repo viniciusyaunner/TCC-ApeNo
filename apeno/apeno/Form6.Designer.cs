@@ -345,6 +345,7 @@
             this.nomeadminTextBox.Name = "nomeadminTextBox";
             this.nomeadminTextBox.Size = new System.Drawing.Size(148, 23);
             this.nomeadminTextBox.TabIndex = 4;
+            this.nomeadminTextBox.TextChanged += new System.EventHandler(this.nomeadminTextBox_TextChanged);
             // 
             // regiaoTextBox
             // 
@@ -354,6 +355,7 @@
             this.regiaoTextBox.Name = "regiaoTextBox";
             this.regiaoTextBox.Size = new System.Drawing.Size(148, 23);
             this.regiaoTextBox.TabIndex = 6;
+            this.regiaoTextBox.TextChanged += new System.EventHandler(this.regiaoTextBox_TextChanged);
             // 
             // enderecoTextBox
             // 
@@ -421,6 +423,7 @@
             this.expedienteTextBox.Name = "expedienteTextBox";
             this.expedienteTextBox.Size = new System.Drawing.Size(148, 23);
             this.expedienteTextBox.TabIndex = 21;
+            this.expedienteTextBox.TextChanged += new System.EventHandler(this.expedienteTextBox_TextChanged);
             // 
             // Form6
             // 

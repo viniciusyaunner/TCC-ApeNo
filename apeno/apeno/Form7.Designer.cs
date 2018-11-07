@@ -332,6 +332,7 @@
             this.nometopicoTextBox.Name = "nometopicoTextBox";
             this.nometopicoTextBox.Size = new System.Drawing.Size(130, 23);
             this.nometopicoTextBox.TabIndex = 4;
+            this.nometopicoTextBox.TextChanged += new System.EventHandler(this.nometopicoTextBox_TextChanged);
             // 
             // numparticipantesTextBox
             // 
@@ -356,6 +357,7 @@
             this.assuntoTextBox.Name = "assuntoTextBox";
             this.assuntoTextBox.Size = new System.Drawing.Size(121, 23);
             this.assuntoTextBox.TabIndex = 10;
+            this.assuntoTextBox.TextChanged += new System.EventHandler(this.assuntoTextBox_TextChanged);
             // 
             // descricaoTextBox
             // 
@@ -364,6 +366,7 @@
             this.descricaoTextBox.Name = "descricaoTextBox";
             this.descricaoTextBox.Size = new System.Drawing.Size(121, 23);
             this.descricaoTextBox.TabIndex = 12;
+            this.descricaoTextBox.TextChanged += new System.EventHandler(this.descricaoTextBox_TextChanged);
             // 
             // criadorTextBox
             // 
@@ -372,6 +375,7 @@
             this.criadorTextBox.Name = "criadorTextBox";
             this.criadorTextBox.Size = new System.Drawing.Size(121, 23);
             this.criadorTextBox.TabIndex = 14;
+            this.criadorTextBox.TextChanged += new System.EventHandler(this.criadorTextBox_TextChanged);
             // 
             // prti_topicoBindingSource
             // 

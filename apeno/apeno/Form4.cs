@@ -37,5 +37,37 @@ namespace apeno
             f3.Show();
             Hide();
         }
+
+        private void nomeTextBox_TextChanged(object sender, EventArgs e)
+        {
+            if (nomeTextBox.Text.Length > 255)
+            {
+                MessageBox.Show("Por favor, abrevie ou mude o nome");
+            }
+        }
+
+        private void nicknameTextBox_TextChanged(object sender, EventArgs e)
+        {
+            if (nicknameTextBox.Text.Length > 70)
+            {
+                MessageBox.Show("Por favor, abrevie ou mude o nickname");
+            }
+        }
+
+        private void senhaTextBox_TextChanged(object sender, EventArgs e)
+        {
+            if (senhaTextBox.Text.Length > 40)
+            {
+                MessageBox.Show("Por favor, abrevie ou mude o senha");
+            }
+        }
+
+        private void emailTextBox_TextChanged(object sender, EventArgs e)
+        {
+            if (emailTextBox.Text.Length > 120)
+            {
+                MessageBox.Show("Por favor, abrevie ou mude o email");
+            }
+        }
     }
 }

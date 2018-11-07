@@ -141,6 +141,7 @@
             this.categoriaTextBox.Name = "categoriaTextBox";
             this.categoriaTextBox.Size = new System.Drawing.Size(148, 23);
             this.categoriaTextBox.TabIndex = 4;
+            this.categoriaTextBox.TextChanged += new System.EventHandler(this.categoriaTextBox_TextChanged);
             // 
             // relatorioTextBox
             // 
@@ -150,6 +151,7 @@
             this.relatorioTextBox.Name = "relatorioTextBox";
             this.relatorioTextBox.Size = new System.Drawing.Size(148, 23);
             this.relatorioTextBox.TabIndex = 6;
+            this.relatorioTextBox.TextChanged += new System.EventHandler(this.relatorioTextBox_TextChanged);
             // 
             // areaTextBox
             // 
@@ -159,6 +161,7 @@
             this.areaTextBox.Name = "areaTextBox";
             this.areaTextBox.Size = new System.Drawing.Size(148, 23);
             this.areaTextBox.TabIndex = 8;
+            this.areaTextBox.TextChanged += new System.EventHandler(this.areaTextBox_TextChanged);
             // 
             // reportTableAdapter
             // 

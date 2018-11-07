@@ -70,6 +70,35 @@ namespace apeno
             Hide();
         }
 
+        private void nometopicoTextBox_TextChanged(object sender, EventArgs e)
+        {
+            if (nometopicoTextBox.TextLength > 120)
+            {
+                MessageBox.Show("Por favor, abrevie ou mude o nome");
+            }
+        }
+
+        private void assuntoTextBox_TextChanged(object sender, EventArgs e)
+        {
+            if (nometopicoTextBox.TextLength > 70)
+            {
+                MessageBox.Show("Por favor, abrevie ou mude o nome");
+            }
+        }
+
+        private void descricaoTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void criadorTextBox_TextChanged(object sender, EventArgs e)
+        {
+            if (nometopicoTextBox.TextLength > 255)
+            {
+                MessageBox.Show("Por favor, abrevie ou mude o nome");
+            }
+        }
+
         
     }
 }

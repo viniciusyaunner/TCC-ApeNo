@@ -41,5 +41,28 @@ namespace apeno
             f3.Show();
             Hide();
         }
+
+        private void nomeadminTextBox_TextChanged(object sender, EventArgs e)
+        {
+            if (nomeadminTextBox.TextLength > 255) {
+                MessageBox.Show("Por favor, abrevie ou mude o nome");
+            }
+        }
+
+        private void regiaoTextBox_TextChanged(object sender, EventArgs e)
+        {
+            if (nomeadminTextBox.TextLength > 60)
+            {
+                MessageBox.Show("Por favor, abrevie ou mude o nome");
+            }
+        }
+
+        private void expedienteTextBox_TextChanged(object sender, EventArgs e)
+        {
+            if (nomeadminTextBox.TextLength > 40)
+            {
+                MessageBox.Show("Por favor, abrevie ou mude o nome");
+            }
+        }
     }
 }

@@ -330,6 +330,7 @@
             this.nomeTextBox.Name = "nomeTextBox";
             this.nomeTextBox.Size = new System.Drawing.Size(434, 23);
             this.nomeTextBox.TabIndex = 4;
+            this.nomeTextBox.TextChanged += new System.EventHandler(this.nomeTextBox_TextChanged);
             // 
             // nicknameTextBox
             // 
@@ -341,6 +342,7 @@
             this.nicknameTextBox.Name = "nicknameTextBox";
             this.nicknameTextBox.Size = new System.Drawing.Size(229, 23);
             this.nicknameTextBox.TabIndex = 6;
+            this.nicknameTextBox.TextChanged += new System.EventHandler(this.nicknameTextBox_TextChanged);
             // 
             // senhaTextBox
             // 
@@ -353,6 +355,7 @@
             this.senhaTextBox.PasswordChar = '*';
             this.senhaTextBox.Size = new System.Drawing.Size(229, 23);
             this.senhaTextBox.TabIndex = 8;
+            this.senhaTextBox.TextChanged += new System.EventHandler(this.senhaTextBox_TextChanged);
             // 
             // id_adminTextBox
             // 
@@ -405,6 +408,7 @@
             this.emailTextBox.Name = "emailTextBox";
             this.emailTextBox.Size = new System.Drawing.Size(248, 23);
             this.emailTextBox.TabIndex = 18;
+            this.emailTextBox.TextChanged += new System.EventHandler(this.emailTextBox_TextChanged);
             // 
             // Form4
             // 
