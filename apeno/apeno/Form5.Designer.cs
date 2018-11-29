@@ -90,7 +90,7 @@
             nomeLabel.BackColor = System.Drawing.Color.Transparent;
             nomeLabel.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             nomeLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            nomeLabel.Location = new System.Drawing.Point(28, 181);
+            nomeLabel.Location = new System.Drawing.Point(46, 185);
             nomeLabel.Name = "nomeLabel";
             nomeLabel.Size = new System.Drawing.Size(53, 17);
             nomeLabel.TabIndex = 3;
@@ -102,11 +102,11 @@
             areaLabel.BackColor = System.Drawing.Color.Transparent;
             areaLabel.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             areaLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            areaLabel.Location = new System.Drawing.Point(28, 230);
+            areaLabel.Location = new System.Drawing.Point(46, 234);
             areaLabel.Name = "areaLabel";
             areaLabel.Size = new System.Drawing.Size(53, 17);
             areaLabel.TabIndex = 5;
-            areaLabel.Text = "area:";
+            areaLabel.Text = "área:";
             // 
             // datanascLabel
             // 
@@ -126,7 +126,7 @@
             reportLabel.BackColor = System.Drawing.Color.Transparent;
             reportLabel.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             reportLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            reportLabel.Location = new System.Drawing.Point(355, 136);
+            reportLabel.Location = new System.Drawing.Point(373, 137);
             reportLabel.Name = "reportLabel";
             reportLabel.Size = new System.Drawing.Size(71, 17);
             reportLabel.TabIndex = 9;
@@ -347,7 +347,6 @@
             this.id_adminTextBox.Name = "id_adminTextBox";
             this.id_adminTextBox.Size = new System.Drawing.Size(200, 23);
             this.id_adminTextBox.TabIndex = 12;
-
             // 
             // button1
             // 

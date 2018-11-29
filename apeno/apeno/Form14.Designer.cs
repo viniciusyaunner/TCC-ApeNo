@@ -59,9 +59,9 @@
             this.dataGridViewTextBoxColumn3,
             this.dataGridViewTextBoxColumn4});
             this.reportDataGridView.DataSource = this.reportBindingSource;
-            this.reportDataGridView.Location = new System.Drawing.Point(91, 124);
+            this.reportDataGridView.Location = new System.Drawing.Point(147, 122);
             this.reportDataGridView.Name = "reportDataGridView";
-            this.reportDataGridView.Size = new System.Drawing.Size(510, 220);
+            this.reportDataGridView.Size = new System.Drawing.Size(443, 220);
             this.reportDataGridView.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn1
@@ -126,11 +126,11 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(59, 72);
+            this.label1.Location = new System.Drawing.Point(50, 69);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(188, 17);
+            this.label1.Size = new System.Drawing.Size(197, 17);
             this.label1.TabIndex = 5;
-            this.label1.Text = "Buscar por categoria";
+            this.label1.Text = "Buscar por categoria:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button2

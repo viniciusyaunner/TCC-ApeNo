@@ -172,11 +172,11 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(124, 82);
+            this.label1.Location = new System.Drawing.Point(115, 82);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(161, 17);
+            this.label1.Size = new System.Drawing.Size(170, 17);
             this.label1.TabIndex = 5;
-            this.label1.Text = "Buscar por Região";
+            this.label1.Text = "Buscar por Região:";
             // 
             // tableAdapterManager
             // 

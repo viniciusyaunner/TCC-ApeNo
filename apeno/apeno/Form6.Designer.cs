@@ -86,7 +86,7 @@
             id_adminLabel.AutoSize = true;
             id_adminLabel.BackColor = System.Drawing.Color.Transparent;
             id_adminLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            id_adminLabel.Location = new System.Drawing.Point(33, 76);
+            id_adminLabel.Location = new System.Drawing.Point(91, 76);
             id_adminLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             id_adminLabel.Name = "id_adminLabel";
             id_adminLabel.Size = new System.Drawing.Size(89, 17);
@@ -98,43 +98,44 @@
             nomeadminLabel.AutoSize = true;
             nomeadminLabel.BackColor = System.Drawing.Color.Transparent;
             nomeadminLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            nomeadminLabel.Location = new System.Drawing.Point(33, 110);
+            nomeadminLabel.Location = new System.Drawing.Point(37, 110);
             nomeadminLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             nomeadminLabel.Name = "nomeadminLabel";
-            nomeadminLabel.Size = new System.Drawing.Size(98, 17);
+            nomeadminLabel.Size = new System.Drawing.Size(143, 17);
             nomeadminLabel.TabIndex = 3;
-            nomeadminLabel.Text = "nomeadmin:";
+            nomeadminLabel.Text = "nome do eadmin:";
+            nomeadminLabel.Click += new System.EventHandler(this.nomeadminLabel_Click);
             // 
             // regiaoLabel
             // 
             regiaoLabel.AutoSize = true;
             regiaoLabel.BackColor = System.Drawing.Color.Transparent;
             regiaoLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            regiaoLabel.Location = new System.Drawing.Point(33, 144);
+            regiaoLabel.Location = new System.Drawing.Point(109, 144);
             regiaoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             regiaoLabel.Name = "regiaoLabel";
             regiaoLabel.Size = new System.Drawing.Size(71, 17);
             regiaoLabel.TabIndex = 5;
-            regiaoLabel.Text = "regiao:";
+            regiaoLabel.Text = "região:";
             // 
             // enderecoLabel
             // 
             enderecoLabel.AutoSize = true;
             enderecoLabel.BackColor = System.Drawing.Color.Transparent;
             enderecoLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            enderecoLabel.Location = new System.Drawing.Point(33, 178);
+            enderecoLabel.Location = new System.Drawing.Point(91, 178);
             enderecoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             enderecoLabel.Name = "enderecoLabel";
             enderecoLabel.Size = new System.Drawing.Size(89, 17);
             enderecoLabel.TabIndex = 7;
-            enderecoLabel.Text = "endereco:";
+            enderecoLabel.Text = "endereço:";
             // 
             // telefoneLabel
             // 
             telefoneLabel.AutoSize = true;
             telefoneLabel.BackColor = System.Drawing.Color.Transparent;
             telefoneLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            telefoneLabel.Location = new System.Drawing.Point(412, 76);
+            telefoneLabel.Location = new System.Drawing.Point(430, 73);
             telefoneLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             telefoneLabel.Name = "telefoneLabel";
             telefoneLabel.Size = new System.Drawing.Size(89, 17);
@@ -146,7 +147,7 @@
             celularLabel.AutoSize = true;
             celularLabel.BackColor = System.Drawing.Color.Transparent;
             celularLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            celularLabel.Location = new System.Drawing.Point(412, 110);
+            celularLabel.Location = new System.Drawing.Point(439, 110);
             celularLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             celularLabel.Name = "celularLabel";
             celularLabel.Size = new System.Drawing.Size(80, 17);
@@ -170,7 +171,7 @@
             senhaLabel.AutoSize = true;
             senhaLabel.BackColor = System.Drawing.Color.Transparent;
             senhaLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            senhaLabel.Location = new System.Drawing.Point(412, 178);
+            senhaLabel.Location = new System.Drawing.Point(457, 181);
             senhaLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             senhaLabel.Name = "senhaLabel";
             senhaLabel.Size = new System.Drawing.Size(62, 17);
@@ -331,7 +332,7 @@
             // id_adminTextBox
             // 
             this.id_adminTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.admin_sistemaBindingSource, "id_admin", true));
-            this.id_adminTextBox.Location = new System.Drawing.Point(138, 73);
+            this.id_adminTextBox.Location = new System.Drawing.Point(188, 73);
             this.id_adminTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.id_adminTextBox.Name = "id_adminTextBox";
             this.id_adminTextBox.Size = new System.Drawing.Size(148, 23);
@@ -340,7 +341,7 @@
             // nomeadminTextBox
             // 
             this.nomeadminTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.admin_sistemaBindingSource, "nomeadmin", true));
-            this.nomeadminTextBox.Location = new System.Drawing.Point(138, 107);
+            this.nomeadminTextBox.Location = new System.Drawing.Point(188, 107);
             this.nomeadminTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.nomeadminTextBox.Name = "nomeadminTextBox";
             this.nomeadminTextBox.Size = new System.Drawing.Size(148, 23);
@@ -350,7 +351,7 @@
             // regiaoTextBox
             // 
             this.regiaoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.admin_sistemaBindingSource, "regiao", true));
-            this.regiaoTextBox.Location = new System.Drawing.Point(138, 141);
+            this.regiaoTextBox.Location = new System.Drawing.Point(188, 141);
             this.regiaoTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.regiaoTextBox.Name = "regiaoTextBox";
             this.regiaoTextBox.Size = new System.Drawing.Size(148, 23);
@@ -360,7 +361,7 @@
             // enderecoTextBox
             // 
             this.enderecoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.admin_sistemaBindingSource, "endereco", true));
-            this.enderecoTextBox.Location = new System.Drawing.Point(138, 175);
+            this.enderecoTextBox.Location = new System.Drawing.Point(188, 175);
             this.enderecoTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.enderecoTextBox.Name = "enderecoTextBox";
             this.enderecoTextBox.Size = new System.Drawing.Size(148, 23);

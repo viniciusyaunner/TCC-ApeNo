@@ -81,7 +81,7 @@
             id_usLabel.BackColor = System.Drawing.Color.Transparent;
             id_usLabel.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             id_usLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            id_usLabel.Location = new System.Drawing.Point(407, 178);
+            id_usLabel.Location = new System.Drawing.Point(407, 175);
             id_usLabel.Name = "id_usLabel";
             id_usLabel.Size = new System.Drawing.Size(62, 17);
             id_usLabel.TabIndex = 1;
@@ -93,7 +93,7 @@
             nomeLabel.BackColor = System.Drawing.Color.Transparent;
             nomeLabel.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             nomeLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            nomeLabel.Location = new System.Drawing.Point(78, 79);
+            nomeLabel.Location = new System.Drawing.Point(103, 79);
             nomeLabel.Name = "nomeLabel";
             nomeLabel.Size = new System.Drawing.Size(53, 17);
             nomeLabel.TabIndex = 3;
@@ -117,7 +117,7 @@
             senhaLabel.BackColor = System.Drawing.Color.Transparent;
             senhaLabel.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             senhaLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            senhaLabel.Location = new System.Drawing.Point(78, 223);
+            senhaLabel.Location = new System.Drawing.Point(94, 223);
             senhaLabel.Name = "senhaLabel";
             senhaLabel.Size = new System.Drawing.Size(62, 17);
             senhaLabel.TabIndex = 7;
@@ -129,11 +129,11 @@
             paisLabel.BackColor = System.Drawing.Color.Transparent;
             paisLabel.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             paisLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            paisLabel.Location = new System.Drawing.Point(416, 125);
+            paisLabel.Location = new System.Drawing.Point(427, 124);
             paisLabel.Name = "paisLabel";
             paisLabel.Size = new System.Drawing.Size(53, 17);
             paisLabel.TabIndex = 9;
-            paisLabel.Text = "pais:";
+            paisLabel.Text = "país:";
             // 
             // emailLabel
             // 
@@ -141,7 +141,7 @@
             emailLabel.BackColor = System.Drawing.Color.Transparent;
             emailLabel.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             emailLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            emailLabel.Location = new System.Drawing.Point(78, 130);
+            emailLabel.Location = new System.Drawing.Point(94, 127);
             emailLabel.Name = "emailLabel";
             emailLabel.Size = new System.Drawing.Size(62, 17);
             emailLabel.TabIndex = 11;
@@ -153,7 +153,7 @@
             id_adminLabel.BackColor = System.Drawing.Color.Transparent;
             id_adminLabel.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             id_adminLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            id_adminLabel.Location = new System.Drawing.Point(391, 229);
+            id_adminLabel.Location = new System.Drawing.Point(407, 226);
             id_adminLabel.Name = "id_adminLabel";
             id_adminLabel.Size = new System.Drawing.Size(89, 17);
             id_adminLabel.TabIndex = 13;
@@ -315,9 +315,9 @@
             this.id_usTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuarioBindingSource, "id_us", true));
             this.id_usTextBox.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.id_usTextBox.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.id_usTextBox.Location = new System.Drawing.Point(496, 175);
+            this.id_usTextBox.Location = new System.Drawing.Point(475, 172);
             this.id_usTextBox.Name = "id_usTextBox";
-            this.id_usTextBox.Size = new System.Drawing.Size(100, 23);
+            this.id_usTextBox.Size = new System.Drawing.Size(121, 23);
             this.id_usTextBox.TabIndex = 2;
             // 
             // nomeTextBox

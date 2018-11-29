@@ -65,7 +65,7 @@
             id_desLabel.AutoSize = true;
             id_desLabel.BackColor = System.Drawing.Color.Transparent;
             id_desLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            id_desLabel.Location = new System.Drawing.Point(101, 107);
+            id_desLabel.Location = new System.Drawing.Point(136, 107);
             id_desLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             id_desLabel.Name = "id_desLabel";
             id_desLabel.Size = new System.Drawing.Size(71, 17);
@@ -77,7 +77,7 @@
             id_reportLabel.AutoSize = true;
             id_reportLabel.BackColor = System.Drawing.Color.Transparent;
             id_reportLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            id_reportLabel.Location = new System.Drawing.Point(101, 141);
+            id_reportLabel.Location = new System.Drawing.Point(109, 140);
             id_reportLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             id_reportLabel.Name = "id_reportLabel";
             id_reportLabel.Size = new System.Drawing.Size(98, 17);
@@ -165,7 +165,6 @@
             this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
             this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
             this.bindingNavigatorDeleteItem.Text = "Excluir";
-
             // 
             // bindingNavigatorMoveFirstItem
             // 

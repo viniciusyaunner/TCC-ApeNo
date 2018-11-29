@@ -64,5 +64,10 @@ namespace apeno
                 MessageBox.Show("Por favor, abrevie ou mude o nome");
             }
         }
+
+        private void nomeadminLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

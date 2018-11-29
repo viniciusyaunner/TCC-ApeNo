@@ -71,7 +71,7 @@
             id_reportLabel.AutoSize = true;
             id_reportLabel.BackColor = System.Drawing.Color.Transparent;
             id_reportLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            id_reportLabel.Location = new System.Drawing.Point(197, 124);
+            id_reportLabel.Location = new System.Drawing.Point(211, 124);
             id_reportLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             id_reportLabel.Name = "id_reportLabel";
             id_reportLabel.Size = new System.Drawing.Size(98, 17);
@@ -83,7 +83,7 @@
             categoriaLabel.AutoSize = true;
             categoriaLabel.BackColor = System.Drawing.Color.Transparent;
             categoriaLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            categoriaLabel.Location = new System.Drawing.Point(197, 158);
+            categoriaLabel.Location = new System.Drawing.Point(211, 158);
             categoriaLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             categoriaLabel.Name = "categoriaLabel";
             categoriaLabel.Size = new System.Drawing.Size(98, 17);
@@ -95,24 +95,24 @@
             relatorioLabel.AutoSize = true;
             relatorioLabel.BackColor = System.Drawing.Color.Transparent;
             relatorioLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            relatorioLabel.Location = new System.Drawing.Point(197, 192);
+            relatorioLabel.Location = new System.Drawing.Point(211, 192);
             relatorioLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             relatorioLabel.Name = "relatorioLabel";
             relatorioLabel.Size = new System.Drawing.Size(98, 17);
             relatorioLabel.TabIndex = 5;
-            relatorioLabel.Text = "relatorio:";
+            relatorioLabel.Text = "relatório:";
             // 
             // areaLabel
             // 
             areaLabel.AutoSize = true;
             areaLabel.BackColor = System.Drawing.Color.Transparent;
             areaLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            areaLabel.Location = new System.Drawing.Point(197, 226);
+            areaLabel.Location = new System.Drawing.Point(256, 226);
             areaLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             areaLabel.Name = "areaLabel";
             areaLabel.Size = new System.Drawing.Size(53, 17);
             areaLabel.TabIndex = 7;
-            areaLabel.Text = "area:";
+            areaLabel.Text = "área:";
             // 
             // reportBindingSource
             // 

@@ -91,40 +91,41 @@
             id_topicLabel.AutoSize = true;
             id_topicLabel.BackColor = System.Drawing.Color.Transparent;
             id_topicLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            id_topicLabel.Location = new System.Drawing.Point(53, 94);
+            id_topicLabel.Location = new System.Drawing.Point(125, 94);
             id_topicLabel.Name = "id_topicLabel";
             id_topicLabel.Size = new System.Drawing.Size(89, 17);
             id_topicLabel.TabIndex = 1;
             id_topicLabel.Text = "id topic:";
+            id_topicLabel.Click += new System.EventHandler(this.id_topicLabel_Click);
             // 
             // nometopicoLabel
             // 
             nometopicoLabel.AutoSize = true;
             nometopicoLabel.BackColor = System.Drawing.Color.Transparent;
             nometopicoLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            nometopicoLabel.Location = new System.Drawing.Point(53, 123);
+            nometopicoLabel.Location = new System.Drawing.Point(71, 126);
             nometopicoLabel.Name = "nometopicoLabel";
-            nometopicoLabel.Size = new System.Drawing.Size(107, 17);
+            nometopicoLabel.Size = new System.Drawing.Size(143, 17);
             nometopicoLabel.TabIndex = 3;
-            nometopicoLabel.Text = "nometopico:";
+            nometopicoLabel.Text = "nome do tópico:";
             // 
             // numparticipantesLabel
             // 
             numparticipantesLabel.AutoSize = true;
             numparticipantesLabel.BackColor = System.Drawing.Color.Transparent;
             numparticipantesLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            numparticipantesLabel.Location = new System.Drawing.Point(53, 152);
+            numparticipantesLabel.Location = new System.Drawing.Point(26, 155);
             numparticipantesLabel.Name = "numparticipantesLabel";
-            numparticipantesLabel.Size = new System.Drawing.Size(161, 17);
+            numparticipantesLabel.Size = new System.Drawing.Size(188, 17);
             numparticipantesLabel.TabIndex = 5;
-            numparticipantesLabel.Text = "numparticipantes:";
+            numparticipantesLabel.Text = "nº de participantes:";
             // 
             // qte_adminLabel
             // 
             qte_adminLabel.AutoSize = true;
             qte_adminLabel.BackColor = System.Drawing.Color.Transparent;
             qte_adminLabel.ForeColor = System.Drawing.SystemColors.Control;
-            qte_adminLabel.Location = new System.Drawing.Point(414, 91);
+            qte_adminLabel.Location = new System.Drawing.Point(456, 94);
             qte_adminLabel.Name = "qte_adminLabel";
             qte_adminLabel.Size = new System.Drawing.Size(98, 17);
             qte_adminLabel.TabIndex = 7;
@@ -135,7 +136,7 @@
             assuntoLabel.AutoSize = true;
             assuntoLabel.BackColor = System.Drawing.Color.Transparent;
             assuntoLabel.ForeColor = System.Drawing.SystemColors.Control;
-            assuntoLabel.Location = new System.Drawing.Point(414, 120);
+            assuntoLabel.Location = new System.Drawing.Point(474, 120);
             assuntoLabel.Name = "assuntoLabel";
             assuntoLabel.Size = new System.Drawing.Size(80, 17);
             assuntoLabel.TabIndex = 9;
@@ -146,18 +147,18 @@
             descricaoLabel.AutoSize = true;
             descricaoLabel.BackColor = System.Drawing.Color.Transparent;
             descricaoLabel.ForeColor = System.Drawing.SystemColors.Control;
-            descricaoLabel.Location = new System.Drawing.Point(414, 149);
+            descricaoLabel.Location = new System.Drawing.Point(456, 149);
             descricaoLabel.Name = "descricaoLabel";
             descricaoLabel.Size = new System.Drawing.Size(98, 17);
             descricaoLabel.TabIndex = 11;
-            descricaoLabel.Text = "descricao:";
+            descricaoLabel.Text = "descricão:";
             // 
             // criadorLabel
             // 
             criadorLabel.AutoSize = true;
             criadorLabel.BackColor = System.Drawing.Color.Transparent;
             criadorLabel.ForeColor = System.Drawing.SystemColors.Control;
-            criadorLabel.Location = new System.Drawing.Point(414, 178);
+            criadorLabel.Location = new System.Drawing.Point(474, 175);
             criadorLabel.Name = "criadorLabel";
             criadorLabel.Size = new System.Drawing.Size(80, 17);
             criadorLabel.TabIndex = 13;

@@ -68,7 +68,7 @@
             id_usLabel.AutoSize = true;
             id_usLabel.BackColor = System.Drawing.Color.Transparent;
             id_usLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            id_usLabel.Location = new System.Drawing.Point(14, 101);
+            id_usLabel.Location = new System.Drawing.Point(42, 99);
             id_usLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             id_usLabel.Name = "id_usLabel";
             id_usLabel.Size = new System.Drawing.Size(75, 20);
