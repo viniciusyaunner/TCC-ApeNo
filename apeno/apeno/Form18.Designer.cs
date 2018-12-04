@@ -52,14 +52,17 @@
             // 
             // reportViewer1
             // 
+            this.reportViewer1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             reportDataSource1.Name = "DataSet1";
             reportDataSource1.Value = this.topicoBindingSource;
             this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
             this.reportViewer1.LocalReport.ReportEmbeddedResource = "apeno.Report4.rdlc";
-            this.reportViewer1.Location = new System.Drawing.Point(33, 80);
+            this.reportViewer1.Location = new System.Drawing.Point(0, -1);
             this.reportViewer1.Margin = new System.Windows.Forms.Padding(4);
             this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.Size = new System.Drawing.Size(510, 220);
+            this.reportViewer1.Size = new System.Drawing.Size(704, 390);
             this.reportViewer1.TabIndex = 0;
             // 
             // topicoTableAdapter
@@ -68,9 +71,10 @@
             // 
             // button1
             // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(562, 378);
+            this.button1.Location = new System.Drawing.Point(579, 397);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(112, 30);
@@ -94,6 +98,7 @@
             this.Name = "Form18";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ApeNo - Relatorio Topico";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form18_FormClosed);
             this.Load += new System.EventHandler(this.Form18_Load);
             ((System.ComponentModel.ISupportInitialize)(this.topicoBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ApeNoDataSet)).EndInit();

@@ -284,6 +284,7 @@
             this.Name = "Form9";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ApeNo - Controle de Erro";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form9_FormClosed);
             this.Load += new System.EventHandler(this.Form9_Load);
             ((System.ComponentModel.ISupportInitialize)(this.apeNoDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.controle_erroBindingSource)).EndInit();

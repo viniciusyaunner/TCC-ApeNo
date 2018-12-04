@@ -489,6 +489,7 @@
             this.Name = "Form7";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ApeNo - Topico";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form7_FormClosed);
             this.Load += new System.EventHandler(this.Form7_Load);
             ((System.ComponentModel.ISupportInitialize)(this.apeNoDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.topicoBindingSource)).EndInit();

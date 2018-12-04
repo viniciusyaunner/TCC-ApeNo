@@ -37,7 +37,7 @@ namespace apeno
         private void button1_Click(object sender, EventArgs e)
         {
             OleDbConnection conexao = new
-            OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=E:\\TCC-ApeNo\\ApeNo.accdb");
+            OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\TCC-ApeNo\\ApeNo.accdb");
             OleDbCommand comandos = new OleDbCommand();
             conexao.Open();
             comandos.CommandText = ("select nomeadmin, senha from admin_sistema where nomeadmin='" + textBox1.Text + "' and senha='" + textBox2.Text + "'");

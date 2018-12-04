@@ -386,6 +386,7 @@
             this.Name = "Form5";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ApeNo - Cadastro de Desenvolvedores";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form5_FormClosed);
             this.Load += new System.EventHandler(this.Form5_Load);
             ((System.ComponentModel.ISupportInitialize)(this.apeNoDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.desenvolvedoresBindingSource)).EndInit();

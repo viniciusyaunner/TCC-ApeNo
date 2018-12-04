@@ -279,12 +279,14 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.button1.ForeColor = System.Drawing.SystemColors.Control;
             this.button1.Location = new System.Drawing.Point(544, 99);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(95, 34);
             this.button1.TabIndex = 7;
             this.button1.Text = "Voltar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form8
@@ -308,6 +310,7 @@
             this.Name = "Form8";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ApeNo - Numero de Participante";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form8_FormClosed);
             this.Load += new System.EventHandler(this.Form8_Load);
             ((System.ComponentModel.ISupportInitialize)(this.apeNoDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.prti_topicoBindingSource)).EndInit();

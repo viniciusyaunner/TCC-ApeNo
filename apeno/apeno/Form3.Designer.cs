@@ -35,11 +35,11 @@
             this.desenvolvedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.administradorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.topicoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.participaçãoDeTopicoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.topicoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.participaçãoDeTopicoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.controleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.relatorioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.controleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usuárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.desenvolvedorToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -117,19 +117,19 @@
             this.topicoToolStripMenuItem.Size = new System.Drawing.Size(80, 21);
             this.topicoToolStripMenuItem.Text = "Tópico";
             // 
-            // participaçãoDeTopicoToolStripMenuItem
-            // 
-            this.participaçãoDeTopicoToolStripMenuItem.Name = "participaçãoDeTopicoToolStripMenuItem";
-            this.participaçãoDeTopicoToolStripMenuItem.Size = new System.Drawing.Size(296, 22);
-            this.participaçãoDeTopicoToolStripMenuItem.Text = "Participação de topico";
-            this.participaçãoDeTopicoToolStripMenuItem.Click += new System.EventHandler(this.participaçãoDeTopicoToolStripMenuItem_Click);
-            // 
             // topicoToolStripMenuItem1
             // 
             this.topicoToolStripMenuItem1.Name = "topicoToolStripMenuItem1";
             this.topicoToolStripMenuItem1.Size = new System.Drawing.Size(296, 22);
             this.topicoToolStripMenuItem1.Text = "Topico";
             this.topicoToolStripMenuItem1.Click += new System.EventHandler(this.topicoToolStripMenuItem1_Click);
+            // 
+            // participaçãoDeTopicoToolStripMenuItem
+            // 
+            this.participaçãoDeTopicoToolStripMenuItem.Name = "participaçãoDeTopicoToolStripMenuItem";
+            this.participaçãoDeTopicoToolStripMenuItem.Size = new System.Drawing.Size(296, 22);
+            this.participaçãoDeTopicoToolStripMenuItem.Text = "Participação de topico";
+            this.participaçãoDeTopicoToolStripMenuItem.Click += new System.EventHandler(this.participaçãoDeTopicoToolStripMenuItem_Click);
             // 
             // reportToolStripMenuItem
             // 
@@ -140,19 +140,19 @@
             this.reportToolStripMenuItem.Size = new System.Drawing.Size(80, 21);
             this.reportToolStripMenuItem.Text = "Report";
             // 
-            // controleToolStripMenuItem
-            // 
-            this.controleToolStripMenuItem.Name = "controleToolStripMenuItem";
-            this.controleToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
-            this.controleToolStripMenuItem.Text = "Controle";
-            this.controleToolStripMenuItem.Click += new System.EventHandler(this.controleToolStripMenuItem_Click);
-            // 
             // relatorioToolStripMenuItem
             // 
             this.relatorioToolStripMenuItem.Name = "relatorioToolStripMenuItem";
             this.relatorioToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.relatorioToolStripMenuItem.Text = "Relatório";
             this.relatorioToolStripMenuItem.Click += new System.EventHandler(this.relatorioToolStripMenuItem_Click);
+            // 
+            // controleToolStripMenuItem
+            // 
+            this.controleToolStripMenuItem.Name = "controleToolStripMenuItem";
+            this.controleToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.controleToolStripMenuItem.Text = "Controle";
+            this.controleToolStripMenuItem.Click += new System.EventHandler(this.controleToolStripMenuItem_Click);
             // 
             // consultaToolStripMenuItem
             // 
@@ -279,7 +279,8 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ApeNo";
+            this.Text = "ApeNo - Menu";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form3_FormClosed);
             this.Load += new System.EventHandler(this.Form3_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

@@ -66,9 +66,7 @@ namespace apeno
 
         private void loginToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form2 f2 = new Form2();
-            f2.Show();
-            Hide();
+            this.Close();
         }
 
         private void desenvolvedorToolStripMenuItem_Click(object sender, EventArgs e)
@@ -160,6 +158,12 @@ namespace apeno
             Form16 f16 = new Form16();
             f16.Show();
             Hide();
+        }
+
+        private void Form3_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Form2 f2 = new Form2();
+            f2.Show();
         }
     }
 }

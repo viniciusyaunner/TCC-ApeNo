@@ -33,9 +33,7 @@ namespace apeno
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form3 f3 = new Form3();
-            f3.Show();
-            Hide();
+            this.Close();
         }
 
         private void relatorioTextBox_TextChanged(object sender, EventArgs e)
@@ -60,6 +58,12 @@ namespace apeno
             {
                 MessageBox.Show("Por favor, abrevie ou mude o nome");
             }
+        }
+
+        private void Form10_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Form3 f3 = new Form3();
+            f3.Show();
         }
     }
 }

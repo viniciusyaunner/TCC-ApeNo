@@ -26,9 +26,13 @@ namespace apeno
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.Close();
+        }
+
+        private void Form18_FormClosed(object sender, FormClosedEventArgs e)
+        {
             Form3 f3 = new Form3();
             f3.Show();
-            Hide();
         }
     }
 }

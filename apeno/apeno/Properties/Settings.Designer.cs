@@ -26,7 +26,7 @@ namespace apeno.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=E:\\TCC-ApeNo\\ApeNo.accdb")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\TCC-ApeNo\\ApeNo.accdb")]
         public string ApeNoConnectionString {
             get {
                 return ((string)(this["ApeNoConnectionString"]));

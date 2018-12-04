@@ -52,14 +52,17 @@
             // 
             // reportViewer1
             // 
+            this.reportViewer1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             reportDataSource1.Name = "DataSet1";
             reportDataSource1.Value = this.reportBindingSource;
             this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
             this.reportViewer1.LocalReport.ReportEmbeddedResource = "apeno.Report5.rdlc";
-            this.reportViewer1.Location = new System.Drawing.Point(39, 67);
+            this.reportViewer1.Location = new System.Drawing.Point(0, -4);
             this.reportViewer1.Margin = new System.Windows.Forms.Padding(4);
             this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.Size = new System.Drawing.Size(510, 220);
+            this.reportViewer1.Size = new System.Drawing.Size(704, 390);
             this.reportViewer1.TabIndex = 0;
             // 
             // reportTableAdapter
@@ -68,12 +71,13 @@
             // 
             // button1
             // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.BackColor = System.Drawing.Color.DimGray;
             this.button1.Font = new System.Drawing.Font("OCR A Extended", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(584, 357);
+            this.button1.Location = new System.Drawing.Point(580, 393);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(84, 40);
+            this.button1.Size = new System.Drawing.Size(112, 30);
             this.button1.TabIndex = 17;
             this.button1.Text = "Voltar";
             this.button1.UseVisualStyleBackColor = false;
@@ -94,6 +98,7 @@
             this.Name = "Form19";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ApeNo - Relatorio Report";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form19_FormClosed);
             this.Load += new System.EventHandler(this.Form19_Load);
             ((System.ComponentModel.ISupportInitialize)(this.reportBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ApeNoDataSet)).EndInit();

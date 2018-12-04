@@ -231,7 +231,7 @@
             this.admin_sistemaBindingNavigator.Name = "admin_sistemaBindingNavigator";
             this.admin_sistemaBindingNavigator.Padding = new System.Windows.Forms.Padding(0, 0, 2, 0);
             this.admin_sistemaBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.admin_sistemaBindingNavigator.Size = new System.Drawing.Size(900, 25);
+            this.admin_sistemaBindingNavigator.Size = new System.Drawing.Size(704, 25);
             this.admin_sistemaBindingNavigator.TabIndex = 0;
             this.admin_sistemaBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -391,7 +391,7 @@
             this.button1.BackColor = System.Drawing.Color.DimGray;
             this.button1.Font = new System.Drawing.Font("OCR A Extended", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(449, 276);
+            this.button1.Location = new System.Drawing.Point(549, 305);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(84, 40);
             this.button1.TabIndex = 17;
@@ -433,7 +433,7 @@
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.BackgroundImage = global::apeno.Properties.Resources.blue;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(900, 441);
+            this.ClientSize = new System.Drawing.Size(704, 441);
             this.Controls.Add(this.expedienteTextBox);
             this.Controls.Add(this.celularMaskedTextBox);
             this.Controls.Add(this.telefoneMaskedTextBox1);
@@ -459,6 +459,7 @@
             this.Name = "Form6";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ApeNo - Admin";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form6_FormClosed);
             this.Load += new System.EventHandler(this.Form6_Load);
             ((System.ComponentModel.ISupportInitialize)(this.apeNoDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.admin_sistemaBindingSource)).EndInit();

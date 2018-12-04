@@ -126,6 +126,8 @@
             // 
             // id_reportTextBox
             // 
+            this.id_reportTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.id_reportTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.reportBindingSource, "id_report", true));
             this.id_reportTextBox.Location = new System.Drawing.Point(317, 121);
             this.id_reportTextBox.Margin = new System.Windows.Forms.Padding(4);
@@ -135,6 +137,8 @@
             // 
             // categoriaTextBox
             // 
+            this.categoriaTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.categoriaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.reportBindingSource, "categoria", true));
             this.categoriaTextBox.Location = new System.Drawing.Point(317, 155);
             this.categoriaTextBox.Margin = new System.Windows.Forms.Padding(4);
@@ -145,6 +149,8 @@
             // 
             // relatorioTextBox
             // 
+            this.relatorioTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.relatorioTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.reportBindingSource, "relatorio", true));
             this.relatorioTextBox.Location = new System.Drawing.Point(317, 189);
             this.relatorioTextBox.Margin = new System.Windows.Forms.Padding(4);
@@ -155,6 +161,8 @@
             // 
             // areaTextBox
             // 
+            this.areaTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.areaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.reportBindingSource, "area", true));
             this.areaTextBox.Location = new System.Drawing.Point(317, 223);
             this.areaTextBox.Margin = new System.Windows.Forms.Padding(4);
@@ -340,6 +348,7 @@
             this.Name = "Form10";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ApeNo - Report";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form10_FormClosed);
             this.Load += new System.EventHandler(this.Form10_Load);
             ((System.ComponentModel.ISupportInitialize)(this.reportBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.apeNoDataSet)).EndInit();

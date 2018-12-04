@@ -37,9 +37,7 @@ namespace apeno
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            Form3 f3 = new Form3();
-            f3.Show();
-            Hide();
+            this.Close();
         }
 
         private void nomeadminTextBox_TextChanged(object sender, EventArgs e)
@@ -68,6 +66,12 @@ namespace apeno
         private void nomeadminLabel_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form6_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Form3 f3 = new Form3();
+            f3.Show();
         }
     }
 }

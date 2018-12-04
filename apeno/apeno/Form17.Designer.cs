@@ -56,10 +56,10 @@
             reportDataSource1.Value = this.admin_sistemaBindingSource;
             this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
             this.reportViewer1.LocalReport.ReportEmbeddedResource = "apeno.Report3.rdlc";
-            this.reportViewer1.Location = new System.Drawing.Point(45, 55);
+            this.reportViewer1.Location = new System.Drawing.Point(0, 0);
             this.reportViewer1.Margin = new System.Windows.Forms.Padding(4);
             this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.Size = new System.Drawing.Size(510, 220);
+            this.reportViewer1.Size = new System.Drawing.Size(704, 390);
             this.reportViewer1.TabIndex = 0;
             // 
             // admin_sistemaTableAdapter
@@ -70,7 +70,7 @@
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(560, 370);
+            this.button1.Location = new System.Drawing.Point(579, 398);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(112, 30);
@@ -94,6 +94,7 @@
             this.Name = "Form17";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ApeNo - Relatorio Admin";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form17_FormClosed);
             this.Load += new System.EventHandler(this.Form17_Load);
             ((System.ComponentModel.ISupportInitialize)(this.admin_sistemaBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ApeNoDataSet)).EndInit();
